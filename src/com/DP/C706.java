@@ -1,13 +1,12 @@
 package com.DP;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.Arrays;
+import java.io.*;
+import java.util.*;
 
 public class C706 {
     public static void main(String[] args) throws IOException {
         BufferedReader inp = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter out = new BufferedWriter(new OutputStreamWriter(System.out));
         int size = Integer.parseInt(inp.readLine());
         int[] cost = new int[size];
         String[] s1 = inp.readLine().split(" ");
